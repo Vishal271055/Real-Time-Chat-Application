@@ -1,0 +1,21 @@
+# Ignore node_modules in both client and server
+client/node_modules/
+server/node_modules/
+
+# Ignore build and dist folders
+client/build/
+dist/
+
+# Ignore environment and log files
+*.env
+*.log
+
+# System files
+.DS_Store
+Thumbs.db
+client/node_modules/ 
+server/node_modules/ 
+client/build/ 
+*.env 
+*.log 
+.DS_Store 
